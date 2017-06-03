@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBot", "TelegramBot\TelegramBot.csproj", "{1746A43F-E482-4BA6-89D7-2A3021B3B234}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBot", "TelegramBot\TelegramBot.csproj", "{0BF23B50-8ACE-47E1-9966-2265A76E4A0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rifmoplet", "Rifmoplet\Rifmoplet.csproj", "{75F98E6F-B071-4518-9AE4-18837688DD78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1746A43F-E482-4BA6-89D7-2A3021B3B234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1746A43F-E482-4BA6-89D7-2A3021B3B234}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1746A43F-E482-4BA6-89D7-2A3021B3B234}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1746A43F-E482-4BA6-89D7-2A3021B3B234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BF23B50-8ACE-47E1-9966-2265A76E4A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF23B50-8ACE-47E1-9966-2265A76E4A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF23B50-8ACE-47E1-9966-2265A76E4A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF23B50-8ACE-47E1-9966-2265A76E4A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F98E6F-B071-4518-9AE4-18837688DD78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F98E6F-B071-4518-9AE4-18837688DD78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F98E6F-B071-4518-9AE4-18837688DD78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F98E6F-B071-4518-9AE4-18837688DD78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

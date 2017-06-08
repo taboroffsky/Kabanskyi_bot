@@ -8,7 +8,7 @@ namespace TelegramBot
 {
    static class BasicInformation
     {
-        public static string Token { get => @"(my id)"; } //private info :)
+        public static string Token { get => @""; } //private info :)
 
         public static string Name { get => "Кабан Ріфмопльот)";}
 

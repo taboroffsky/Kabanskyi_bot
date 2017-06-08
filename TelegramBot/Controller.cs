@@ -103,7 +103,10 @@ namespace TelegramBot
 
             SendMessage(clientId, "Римую,чекай)");
 
-            ICollection<string> collection = Rhymer.RhymeWord(text);            
+            ICollection<string> collection = Rhymer.RhymeWord(text);
+
+            if (collection.Count == 0)
+                EditMessageText(clientId, messageId, "Без варіантів) Працюю тільки з російськими словами :Р");
 
             foreach (string item in collection)
             {
